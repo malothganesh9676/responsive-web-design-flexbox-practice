@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-container {
+    min-height: 100vh;
+    background-color: #000000;
+    padding: 75px 20px;
+}
+
+.pricing-container {
+    max-width: 470px;
+    margin: auto;
+}
+
+.main-heading {
+    color: #ff6542;
+    font-size: 22px;
+    margin: 0 0 8px 0;
+}
+
+.description {
+    color: white;
+    font-size: 9px;
+    margin: 0 0 10px 0;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    background-color: #2c3740;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 260px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-container {
+    align-self: flex-end;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.text-container {
+    flex-grow: 1;
+}
+
+.card-heading {
+    color: white;
+    font-size: 23px;
+    margin: 5px 0 12px 0;
+}
+
+.card-heading small {
+    font-size: 7px;
+    font-weight: normal;
+}
+
+.card-para {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 12px 0;
+}
+
+.unorder-list {
+    color: white;
+    font-size: 9px;
+    line-height: 2.7;
+    padding-left: 18px;
+    margin: 0;
+}
+
+.button {
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: #27323a;
+    font-size: 9px;
+}
+
+.orange-card {
+    background-color: #2c3740;
+}
+
+.orange-button {
+    background-color: #ff6542;
+    color: white;
+}
+@media (min-width: 768px) {
+
+    .bg-container {
+        padding: 75px 20px;
+    }
+
+    .pricing-container {
+        max-width: 970px;
+    }
+
+    .wrap-container {
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    .card {
+        width: 152px;
+        min-height: 262px;
+        flex-grow: 1;
+    }
+}
